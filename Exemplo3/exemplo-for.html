@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Exemplo de For</title>
+</head>
+
+<body>
+    <div>
+        <h1>Exemplo prático de FOR</h1>
+        <p>Exibindo números de  no console</p>
+        <p>Pressione F12 ou CTR + SHIFT + I para acessar o DevTools</p>
+        <script>
+            //Exemplo de FOR
+            let primeiro = prompt("Digite um número inicial (de 10 a 200):");
+            let ultimo = prompt("Digite um número final (de 10 a 200):");
+            
+        if (primeiro <ultimo) {
+                for (let i = primeiro; i <= ultimo; i++) {
+                    console.log(i);
+                }
+            } else {
+                console.log("O número inicial deve ser menor que o número final.");
+        }
+        </script>
+    </div>
+</body>
+
+</html>
